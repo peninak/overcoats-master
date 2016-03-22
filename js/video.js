@@ -1,5 +1,6 @@
-//animate the element with the id 'first'
+/*animate the videos on the page on load*/ 
 $(document).ready(function() {
+	/*conditional to adjust size of elements based on screen width*/
 	if($(window).width() >= 1024) {
 		$('#first').animate({
 		height: $(window).height(),

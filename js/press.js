@@ -75,7 +75,10 @@ $(document).ready(function() {
 				'background-size' : '100% 100%',
 				'background-repeat': 'no-repeat'
 			});
+			$('.pressBoxAdded .overlay').eq(i).html('<a class="press" href=' + pressLinksAdded[pressLinksAddedIndex] + ' target="_blank">' + headlinesAdded[headlinesAddedIndex] + '</a>');
 			i++;
+			headlinesAddedIndex++;
+			pressLinksAddedIndex++;
 		}
 	}
 });

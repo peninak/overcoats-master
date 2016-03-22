@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-  padding: 10px;
+  padding: 5px;
   font-size: 1.5em;
 }
 
@@ -234,9 +234,22 @@ input[type=submit]: {
   display: inline-block;
 }
 
+.first-name {
+  width: 50%;
+}
+
+.last-name {
+  width: 50%;
+}
+
+input.required-email {
+  width: 55%;
+}
+
 .form {
   float: left;
-  display: block;
+  width: 89%;
+  display: inline-block;
 }
 
 .mainFrame {
@@ -314,7 +327,6 @@ input[type=submit]: {
 
 .overlay {
   position: absolute;
-  /*content:" ";*/
   top:0;
   left:0;
   width: 100%;
@@ -383,7 +395,7 @@ input[type=submit]: {
     padding: 10px;
   }
 
-  #email {
+  input#email {
     width: 14%;
     margin: 15px 0px 15px 15px;
     padding: 10px;
@@ -459,10 +471,6 @@ input[type=submit]: {
   .center {
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  .connect {
-    width: 65%;
   }
 
   .first-name {
@@ -669,9 +677,25 @@ input[type=submit]: {
       height: 400px;
     } 
 
+    .bttn {
+    width: 50%;
+    }
+
     .center {
       padding: 0px;
       margin-top: 20px;
+    }
+
+    .first-name {
+    width: 40%;
+    }
+
+    .last-name {
+    width: 40%;
+    }
+
+    .required-email {
+     width: 45%;
     }
 
     .insta {
