@@ -1,0 +1,724 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,900,500,300italic);
+
+body {
+	background-color: #d5e8e5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+/*id for landing background image*/
+#background_landing {
+	background: url(../images/overcoats-dcondren-final-70.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
+  box-sizing: border-box;
+  background-color: #d5e8e5;
+	height: 1500px;
+	width: 100%;
+  margin: 0;
+}
+
+/*id for slideshow on life page*/
+#life {
+  background: url(../images/sunglasses.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 89%;
+  height: 1000px;
+}
+
+nav {
+	position: fixed;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+	padding: 40px 0px 40px 40px;
+	font-size: 3.2em;
+	font-weight: 300;
+  font-style: light;
+  font-stretch: ultra-expanded;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #f5efd0;
+	cursor: pointer;
+}
+
+/*styles for press page*/
+a.press {
+  color: #000;
+  font-size: 2em;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 64px;
+  z-index: -1;
+}
+
+ul {
+  display: inline-block;
+}
+
+/*padding for nav*/
+li {
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+p {
+  width: 87%;
+  margin-left: 40px;
+}
+
+div {
+  overflow: auto;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  margin: 20px 0px 20px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+}
+
+#email {
+  margin: 20px 0px 20px 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+
+iframe {
+  width: 44%;
+  height: 355px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-left: 20px;
+}
+
+span {
+  font-weight: 300;
+}
+
+table {
+  margin-left: 40px;
+  border-collapse: collapse;
+  width: 89%;
+}
+
+tr {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+input[type=text]:focus{
+  outline: none;
+  border: solid 2px #000;
+}
+
+input[type=email]:focus{
+  outline: none;
+  border: solid 2px #000;
+}
+
+input[type=submit]:hover{
+  border: solid 2px #000;
+}
+
+input[type=submit]:active{
+  outline: none;
+}
+
+input[type=submit]: {
+  border: solid 2px #000;
+}
+
+.body-image {
+  width: 89%;
+  height: 700px;
+}
+
+.bttn {
+     color: #000;
+     background-color: #f5efd0;
+     border-color: #000;
+     font-size: 1em;
+     line-height: 1.5;
+     text-align: center;
+     vertical-align: middle;
+     cursor: pointer;
+     border: 1px solid transparent;
+     border-radius: 2px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     -o-user-select: none;
+     user-select: none;
+     font-weight: 300;
+     font-style: light;
+     font-family: 'Roboto', sans-serif;
+     width: 175px;
+     height: 55px;
+     margin: 20px 0px 20px 20px;
+     padding: 10px;
+}
+
+.center {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+  left: 0;
+}
+
+.connect-body {
+  width: 89%;
+  height: 90%;
+}
+
+.connect {
+  float: left;
+  clear: after;
+  width: 70%;
+  margin: 20px 40px 20px 0px;
+}
+
+.insta-body {
+  margin-top: 10px;
+  margin-left: 5px;
+  float: left;
+}
+
+.insta {
+  width: 29.33%;
+  height: 100%;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  height: 300px;
+  float: left;
+  display: inline-block;
+}
+
+.form {
+  float: left;
+  display: block;
+}
+
+.mainFrame {
+  width: 89%; 
+  height: 700px;
+  vertical-align: center;
+} 
+
+.mailing {
+  position: fixed;
+  bottom: 0;
+  background-color: #d5e8e5;
+  width: 100%;
+  height: 12%;
+  visibility: hidden;
+  display: inline-block;
+}
+
+/*hamburger menu for mobile*/
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 1em;
+  font-weight: 100;
+  vertical-align: middle;
+  z-index: 99;
+  display: none;
+  cursor: pointer;
+}
+
+
+.mobile-menu ul {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+
+.mobile-menu:hover ul {
+  display: block;
+}
+
+.mobile-span {
+  display: block;
+  width: 50px;
+  height: 7px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+}
+
+.pressBox {
+  width: 28%;
+  height: 400px;
+  float: left;
+  border: #000 solid 1px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  z-index: 1;
+  position:relative;
+}
+
+.pressBoxAdded {
+  width: 28%;
+  height: 200px;
+  float: left;
+  border: #000 solid 1px;
+  margin: 10px 10px 10px 10px;
+  cursor: pointer;
+  z-index: 1;
+  position:relative;
+}
+
+.overlay {
+  position: absolute;
+  /*content:" ";*/
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.6); 
+}
+
+.pressBox:hover .overlay,
+.pressBoxAdded:hover .overlay{
+  opacity: 1;
+}
+
+.social {
+  height: 35px;
+}
+
+.store {
+  width: 40%;
+  float: left;
+  height: 600px;
+  margin-left: 40px;
+}
+
+.store-image {
+  width: 75%;
+  height: 65%;
+  position: relative;
+}
+
+.tour-content {
+  border: 1px solid rgba(150,150,150,0.22);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
+
+.tour-image {
+  width: 33%;
+  height: 500px;
+}
+
+.tour-slideshow {
+  display: block;
+  float: left;
+  width: 89%;
+  cursor: pointer;
+}
+
+.tour-overlay {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.clear {
+	overflow: auto;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1215px) {
+  input {
+    margin: 15px 0px 15px 15px;
+    width: 11.5%;
+    padding: 10px;
+  }
+
+  #email {
+    width: 14%;
+    margin: 15px 0px 15px 15px;
+    padding: 10px;
+  }
+
+  #mc-embedded-subscribe {
+    margin: 15px 0px 15px 15px;
+    width: 11.5%;
+    padding: 10px;
+  }
+
+  label {
+    margin-left: 15px;
+  }
+
+  .first-name {
+    width: 50%;
+  }
+
+  .last-name {
+    width: 50%;
+  }
+
+  .required-email {
+    width: 55%;
+  }
+
+  .bttn {
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+
+  input {
+    width: 10%;
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+  }
+
+  #mc-embedded-subscribe {
+    width: 11%;
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+  } 
+
+  input#email {
+    width: 13%;
+    margin: 5px 0px 5px 5px;
+    padding: 5px;
+  }
+
+  label {
+    margin-left: 5px;
+  }
+
+  p {
+    width: 81%;
+  }
+
+  .body-image {
+    width: 85%;
+    height: 550px;
+  }
+
+  .bttn {
+    width: 150px;
+  }
+
+  .center {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .connect {
+    width: 65%;
+  }
+
+  .first-name {
+    width: 50%;
+  }
+
+  .insta {
+    width: 28.25%;
+  }
+
+  .last-name {
+    width: 50%;
+  }
+
+  .required-email {
+    width: 55%;
+  }
+
+  #life {
+    width: 85%
+  }
+
+  .pressBox {
+  width: 26%;
+  height: 350px;
+  }
+
+  .pressBoxAdded {
+    width: 26%;
+  }
+
+  .tour-slideshow {
+    width: 85%;
+  }
+
+  .tour-image {
+    width: 50%;
+  }
+
+  .store-image {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  input {
+    width: 20%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+  }
+
+   input#email {
+    width: 25%;
+    margin: 20px 70px 20px 20px;
+    padding: 10px;
+  }
+
+
+  #mc-embedded-subscribe {
+    width: 20%;
+    margin: 20px 0px 20px 20px;
+    padding: 10px;
+  } 
+
+  label {
+    margin-left: 20px;
+  }
+
+  p {
+    width: 78%;
+  }
+
+  table {
+      width: 78%;
+  }
+
+  .body-image {
+    width: 83%;
+    height: 500px;
+  }
+
+  .bttn {
+    width: 35%;
+  }
+
+  .center {
+    padding: 0px;
+  }
+
+  .connect {
+    width: 90%;
+  }
+
+  .insta {
+    width: 41.5%;
+  }
+
+  .first-name {
+    width: 40%;
+  }
+
+  .last-name {
+    width: 40%;
+  }
+
+  .required-email {
+    width: 45%;
+  }
+
+   #life {
+    width: 83%
+  }
+
+  .pressBox {
+  width: 37%;
+  height: 250px;
+  }
+
+  .pressBoxAdded {
+    width: 37%;
+  }
+
+  .mailing {
+  height: 20%;
+  }
+
+  .store {
+    width: 40%;
+  }
+
+  .store-bttn {
+    width: 140px;
+    margin: 10px 0px 10px 10px;
+  }
+
+  .store-image {
+    width: 80%;
+    height: 50%;
+  }
+
+  .tour-slideshow {
+    width: 83%;
+  }
+
+  .tour-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+    body {
+      font-size: 14px;
+      height: 1000px;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      padding: 20px 0px 20px 20px;
+    }
+
+    input {
+    width: 175px;
+    margin: 20px 0px 20px 20px;
+    padding: 10px;
+    display: block;
+    }
+
+    input#email {
+    width: 225px;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    display: block;
+    }
+
+    #mc-embedded-subscribe {
+      width: 175px;
+      margin: 20px 0px 20px 20px;
+      padding: 10px;
+      display: block;
+    } 
+
+    label {
+      margin-left: 20px;
+    }
+
+    nav {
+      display: none;
+    }
+
+    p {
+      width: 72%;
+    }
+
+    table {
+      width: 72%;
+    }
+
+    .body-image {
+      width: 78%;
+      height: 400px;
+    } 
+
+    .center {
+      padding: 0px;
+      margin-top: 20px;
+    }
+
+    .insta {
+      width: 98%;
+    }
+
+    #life {
+      width: 98%;
+    }
+
+    .mailing {
+      height: 20%;
+    }
+
+    .mobile-menu {
+      display: block;
+    }
+
+    .pressBox {
+      width: 35.5%;
+      height: 250px;
+    }
+    
+    .pressBoxAdded {
+      width: 35.5%;
+    }
+
+    .store {
+      width: 89%;
+    }
+
+    .store-bttn {
+      width: 125px;
+      margin: 10px 0px 0px 0px;
+    }
+    
+    .store-image {
+      width: 80%;
+      height: 70%;
+    }
+
+    .tour-slideshow {
+      width: 78%;
+    }
+
+   .tour-image {
+      width: 100%;
+    }
+
+  }
